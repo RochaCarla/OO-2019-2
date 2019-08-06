@@ -5,7 +5,7 @@ Plano de ensino disponibilizado no repositório
 
 grupo telegram para avisos
 
-(https://t.me/joinchat/E8mc6RezOjlTGfmVrVdkOw)[https://t.me/joinchat/E8mc6RezOjlTGfmVrVdkOw]
+[https://t.me/joinchat/E8mc6RezOjlTGfmVrVdkOw](https://t.me/joinchat/E8mc6RezOjlTGfmVrVdkOw)
 
 Organização da disciplina
-(https://gitlab.com/oofga)[https://gitlab.com/oofga]
+[https://gitlab.com/oofga](https://gitlab.com/oofga)
