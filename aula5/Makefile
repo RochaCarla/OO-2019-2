@@ -1,2 +1,2 @@
 all:
-	g++ -o saida main.cpp carro.cpp
+	g++ -o saida main.cpp carro.cpp caminhao.cpp
