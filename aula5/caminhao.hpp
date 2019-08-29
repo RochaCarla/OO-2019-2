@@ -10,7 +10,7 @@ class Caminhao : public Carro{
         float altura;
         string tipoCarga;
     public:
-        Caminhao();
+        Caminhao(string marca);
      //    ~Caminhao();
          void setTipoCarga(string tcarga);
          string getTipoCarga();

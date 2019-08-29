@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     Carro meu_carro;
     Carro *carro2; 
-    Caminhao meu_caminhao;
+    Caminhao* meu_caminhao = new Caminhao("mercedes");
     
 
     carro2 = new Carro();
