@@ -7,4 +7,6 @@ Os exemplos apresentados apresentam conceitos relacionados a encapsulamento e he
 
 No terminal, digite
 
-`make
+```
+make
+```
