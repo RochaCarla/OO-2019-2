@@ -14,11 +14,14 @@ class Carro{
         float velocidadeAtual;
     public:
         Carro();
+        Carro(float _velocidadeMaxima);
         ~Carro();
         void aceleraCarro(float fatorAcelacao);
         void desaceleraCarro(float fatorAcelecao);
         void setCapacidade(int qtePessoas);
         int capacidade;
         int getCapacidade();
+        void setVelocidadeAtual(float velocidade);
+        void setVelocidadeMaxima(float velocidade);
 
 };

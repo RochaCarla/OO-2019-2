@@ -11,6 +11,7 @@ class Caminhao : public Carro{
         string tipoCarga;
     public:
         Caminhao(string marca);
+        Caminhao(float _velocidadeMaxima, string marca);
      //    ~Caminhao();
          void setTipoCarga(string tcarga);
          string getTipoCarga();
