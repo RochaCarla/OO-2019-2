@@ -7,7 +7,7 @@ Carro::Carro(){
 }
 Carro::~Carro()
 {
-    cout << "Destriu o carro" << endl;
+    cout << "Destruiu o carro" << endl;
 }
 void Carro::setVelocidadeAtual(float velocidade)
 {
