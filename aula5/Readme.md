@@ -1,4 +1,4 @@
-# Aulas de Encapsulamento e Herança
+# Aulas de Encapsulamento, Herança, Polimorfismo
 
 Os exemplos apresentados apresentam conceitos relacionados a encapsulamento e herança e foram apresentados em sala de aula
 
