@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "carro.hpp"
+
 #include "caminhao.hpp"
 
 using namespace std;
@@ -26,8 +26,12 @@ int main(){
     cout << "Capacidade: " << meu_carro2.capacidade<< endl;
 
     carro2 = new Carro();
-    cout <<"Carro: "<<endl;
+    carro2->setModelo("Up Tsi");
+    carro2->setAno(2018);
     carro2->setCapacidade(4);
+
+    cout <<"Modelo: "<< carro2->getModelo()<<endl;
+    cout <<"Ano: "<< carro2->getAno()<<endl;
     cout << "Capacidade: " << carro2->getCapacidade()<< endl;
     
     meu_caminhao->setCapacidade(2);
