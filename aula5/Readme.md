@@ -5,8 +5,17 @@ Os exemplos apresentados apresentam conceitos relacionados a encapsulamento e he
 
 # Como executar o código
 
-No terminal, digite
+No terminal, digite para compilar
 
 ```
 make
 ```
+
+
+No terminal, digite para excutar
+
+```
+make run
+```
+
+
