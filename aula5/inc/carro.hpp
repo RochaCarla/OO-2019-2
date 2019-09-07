@@ -20,13 +20,22 @@ class Carro{
         Carro();
         Carro(float _velocidadeMaxima);
         ~Carro();
-        void aceleraCarro(float fatorAcelacao);
-        void desaceleraCarro(float fatorAcelecao);
+        void aceleraCarro(float fatorAceleracao);
+        void desaceleraCarro(float fatorAceleracao);
         void setCapacidade(int qtePessoas);
         int getCapacidade();
         void setVelocidadeAtual(float velocidade);
+<<<<<<< HEAD
         void setVelocidadeMaxima(float velocidade);
         void imprimeDados();
 
 };
 #endif
+=======
+        void setVelocidadeMaxima(float velocidade); 
+        int getAno();
+        void setAno(int ano);
+        string getModelo();
+        void setModelo(string modelo);
+};
+>>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa

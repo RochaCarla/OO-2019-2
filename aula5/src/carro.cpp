@@ -1,9 +1,13 @@
 #include "carro.hpp"
 
 Carro::Carro(){
-    cout << "Criou o carro";
+    ano = 2010;
+    modelo = "Utilitario";
+    
     setVelocidadeAtual(0.0);
     setVelocidadeMaxima(220.0);
+    
+    cout << "Criou o carro" << endl;
 }
 Carro::Carro(float _velocidadeMaxima){
     cout << "Criou o carro";
@@ -12,21 +16,28 @@ Carro::Carro(float _velocidadeMaxima){
 }
 Carro::~Carro()
 {
-    cout << "Destriu o carro" << endl;
+    cout << "Destruiu o carro" << endl;
 }
+
 void Carro::setVelocidadeAtual(float velocidade)
 {
     if(velocidade >= 0.0){
         velocidadeAtual = velocidade;
     }
 }
+
 void Carro::setVelocidadeMaxima(float velocidade)
 {
-    cout << "setou velocidade maxima"<< velocidade << endl;
+    cout << "Setou velocidade máxima:"<< velocidade<< endl;
     if(0.0 <= velocidade < 400.00){
+<<<<<<< HEAD
          this->velocidadeMax =  velocidade;
+=======
+        this->velocidadeMax = velocidade; //velocidadeMax = velocidade;
+>>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa
     }
 }
+
 void Carro::setCapacidade(int qtePessoas)
 {
     if (qtePessoas > 0){
@@ -38,10 +49,29 @@ int Carro::getCapacidade()
     return this->capacidade;
 }
 
+<<<<<<< HEAD
 void Carro::imprimeDados()
 {
     cout << "Ano " << this->ano << endl;
     cout << "Marca " << this->marca << endl;
     cout << "Modelo " << this->modelo << endl;
     cout << "Preco " << this->preco << endl;
+=======
+int Carro::getAno()
+{
+    return ano;
+}
+void Carro::setAno(int ano)
+{
+    this->ano = ano;
+}
+
+string Carro::getModelo()
+{
+    return modelo;
+}
+void Carro::setModelo(string modelo)
+{
+    this->modelo = modelo;
+>>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa
 }
