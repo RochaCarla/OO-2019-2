@@ -1,3 +1,6 @@
+#ifndef CARRO_HPP_
+#define CARRO_HPP_
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -12,6 +15,7 @@ class Carro{
         float preco;
         float velocidadeMax;
         float velocidadeAtual;
+        int capacidade;
     public:
         Carro();
         Carro(float _velocidadeMaxima);
@@ -19,9 +23,10 @@ class Carro{
         void aceleraCarro(float fatorAcelacao);
         void desaceleraCarro(float fatorAcelecao);
         void setCapacidade(int qtePessoas);
-        int capacidade;
         int getCapacidade();
         void setVelocidadeAtual(float velocidade);
         void setVelocidadeMaxima(float velocidade);
+        void imprimeDados();
 
 };
+#endif
