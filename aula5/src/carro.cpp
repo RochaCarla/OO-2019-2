@@ -30,11 +30,8 @@ void Carro::setVelocidadeMaxima(float velocidade)
 {
     cout << "Setou velocidade máxima:"<< velocidade<< endl;
     if(0.0 <= velocidade < 400.00){
-<<<<<<< HEAD
          this->velocidadeMax =  velocidade;
-=======
-        this->velocidadeMax = velocidade; //velocidadeMax = velocidade;
->>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa
+
     }
 }
 
@@ -49,14 +46,14 @@ int Carro::getCapacidade()
     return this->capacidade;
 }
 
-<<<<<<< HEAD
+
 void Carro::imprimeDados()
 {
     cout << "Ano " << this->ano << endl;
     cout << "Marca " << this->marca << endl;
     cout << "Modelo " << this->modelo << endl;
     cout << "Preco " << this->preco << endl;
-=======
+}
 int Carro::getAno()
 {
     return ano;
@@ -73,5 +70,5 @@ string Carro::getModelo()
 void Carro::setModelo(string modelo)
 {
     this->modelo = modelo;
->>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa
+
 }

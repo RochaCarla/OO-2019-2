@@ -25,17 +25,12 @@ class Carro{
         void setCapacidade(int qtePessoas);
         int getCapacidade();
         void setVelocidadeAtual(float velocidade);
-<<<<<<< HEAD
-        void setVelocidadeMaxima(float velocidade);
-        void imprimeDados();
 
-};
-#endif
-=======
-        void setVelocidadeMaxima(float velocidade); 
+        void setVelocidadeMaxima(float velocidade);
+        void imprimeDados(); 
         int getAno();
         void setAno(int ano);
         string getModelo();
         void setModelo(string modelo);
 };
->>>>>>> d2e8a238926620ea6e1311b2d6c99c13324362aa
+#endif
